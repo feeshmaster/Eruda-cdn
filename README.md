@@ -19,6 +19,6 @@ if statically is slow i guess
 
 or this if github raw is blocked this sucks.
 ```js
-javascript:(function () { var script = document.createElement('script'); script.src="https://cdn.githubraw.com/feeshmaster/Eruda-cdn/main/eruda.js"; document.body.append(script); script.onload = function () { eruda.init(); } })();
+javascript:(function () { var script = document.createElement('script'); script.src="https://cdnjs.cloudflare.com/ajax/libs/eruda/3.4.3/eruda.js"; document.body.append(script); script.onload = function () { eruda.init(); } })();
 
 ```
