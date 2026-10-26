@@ -8,3 +8,11 @@ javascript:(function () { var script = document.createElement('script'); script.
 ```
 if jsdelivr is blocked.
 as it is for me.
+
+or
+
+```js
+javascript:(function () { var script = document.createElement('script'); script.src="https://cdn.githubraw.com/feeshmaster/Eruda-cdn/main/eruda.js"; document.body.append(script); script.onload = function () { eruda.init(); } })();
+```
+
+if statically is slow i guess
